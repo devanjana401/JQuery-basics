@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $(".main").css({
+                "background-color": "black",
+                "height": "200px",
+                "width": "200px",
+                "display": "flex",
+                "align-items": "center",
+                "justify-content": "center"
+            });
+            
+            // $(".btn").css({
+            //     "background-color": "white",
+            //     "color": "black",
+            //     "padding": "10px 20px",
+            //     "border": "none",
+            //     "cursor": "pointer"
+            // });
+
+            // Hover syntax
+            $(".btn").hover(
+                function() { // mouse enter
+                    $(this).css({
+                        "background-color": "black",
+                        "color": "white",
+                        "cursor": "pointer"
+                    });
+                },
+                function() { // mouse leave
+                    $(this).css({
+                        "background-color": "white",
+                        "color": "black",
+                        "cursor": "pointer"
+                    });
+                }
+            );
+        });
+    </script>
+</head>
+<body>
+    <div class="main">
+        <button class="btn">Button</button>
+    </div>
+</body>
+</html>
+
+
+<!-- The jQuery .hover() method takes two functions:
+$(".btn").hover(function1, function2);
+function1 → mouseenter (when the cursor goes onto the element)
+function2 → mouseleave (when the cursor goes out of the element) -->

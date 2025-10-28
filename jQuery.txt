@@ -1,0 +1,6 @@
+--Write less,do more
+--Cross browser support
+--Easy DOM manipulation
+--Ajax codes with less code(asynchronous js and xml - it's a technique used to send and receive data from server asychronously,
+  without having to reload entire webpage)
+--Support effects and animations
