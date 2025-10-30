@@ -4,3 +4,7 @@
 --Ajax codes with less code(asynchronous js and xml - it's a technique used to send and receive data from server asychronously,
   without having to reload entire webpage)
 --Support effects and animations
+
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
